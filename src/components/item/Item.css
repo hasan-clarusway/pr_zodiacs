@@ -1,0 +1,38 @@
+.card-logo {
+    margin: -13px 0 0 18px;
+    width: 78%;
+    height: 11.5rem;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform .3s ease-out;
+}
+
+.card:hover .card-logo {
+    transform: scale(1.15);
+    box-shadow: 0px 0px 9px 2px #b6f495;
+}
+
+.info {
+    height: 11rem;
+    width: 25rem;
+    background-color: rgb(255, 178, 110);
+    padding: 8px;
+    line-height: 1.3rem;
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+    margin-top: -1rem;
+    margin-left: 25rem;
+}
+.info:hover {
+    font-family: Emilys Candy;
+    font-size: 18px;
+    line-height: 1.5rem;
+    cursor: pointer;
+    box-shadow: 0px 0px 9px 2px #b6f495;
+}
+.inf {
+    font-size: 20px;
+    margin-top: -10rem;
+    margin-left: 20rem;
+}

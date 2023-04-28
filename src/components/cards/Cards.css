@@ -1,0 +1,15 @@
+.cards-area-container{
+    height:22.5rem;
+    width:99%;
+    background-color: #fd95ee;
+    margin-top: 0.8rem;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+.cards-container {
+    padding: 8px;
+    margin-left: 8px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}

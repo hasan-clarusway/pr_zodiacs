@@ -1,0 +1,21 @@
+.pic-area-container {
+    height: 14rem;
+    width: 77rem;
+    background-color: #d06807;
+    margin: 3rem 0 0 0rem;
+    border-radius: 1rem;
+    display: grid;
+    grid-template-rows: 10% 90%;
+    grid-template-areas: "top" "bottom";
+    overflow: hidden; 
+} 
+
+.picture-container {
+    width: 30rem;
+    margin: -5px 0 0 3px;
+    grid-area: bottom;
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: repeat(1, 2fr);    
+} 
+
